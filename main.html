@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+</head>
+<body>
+
+<div class="main">
+    <h2 class="title">Generate QRCode Image</h2>
+    <div class="msg">
+
+    </div>
+    <div class="params">
+
+        <form action="">
+            <div class="column">
+                <label for="text">Text</label>
+                <input type="text" name="text" id="text" placeholder="enter the text"/>
+            </div>
+
+            <div class="column">
+                <label for="width">Width</label>
+                <input type="text" name="width" id="width" value="205"/>
+            </div>
+
+            <div class="column">
+                <label for="height">Height</label>
+                <input type="text" name="height" id="height" value="205"/>
+            </div>
+
+            <div class="column">
+                <label for="type">Type</label>
+                <input type="text" name="type" id="type" placeholder="png" disabled/>
+            </div>
+
+            <div class="column">
+                <button type="reset" class="btn-reset">Reset</button>
+                <button type="submit" class="btn-generate">Generate</button>
+                <button type="button" class="btn-save">Save</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="qr-code">
+        <div class="res-img">
+        </div>
+    </div>
+
+</div>
+
+<script type="application/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="application/javascript" src="bower_components/jquery-qrcode/jquery.qrcode.min.js"></script>
+<script type="application/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>

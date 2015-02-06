@@ -1,0 +1,29 @@
+{
+  "name": "Qrcode Generator",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Generate An Qr Code image",
+  "browser_action": {
+    "default_icon": {
+      "19": "assets/images/icon.png",
+      "38": "assets/images/icon38.png",
+      "48": "assets/images/icon48.png",
+      "128": "assets/images/icon128.png"
+    },
+    "default_title": "QrCode Gen",
+    "default_popup": "main.html"
+  },
+  "icons": {
+    "19": "assets/images/icon.png",
+    "38": "assets/images/icon38.png",
+    "48": "assets/images/icon48.png",
+    "128": "assets/images/icon128.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["assets/js/main.js"],
+    "persistent": false
+  }
+}
