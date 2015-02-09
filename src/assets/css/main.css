@@ -3,7 +3,7 @@
 }
 .main {
   width: 264px;
-  height: 444px;
+  height: 420px;
 }
 .main .title {
   text-align: center;
@@ -40,13 +40,25 @@
   border: 1px solid #eee;
   box-shadow: 1px 1px 2px #000;
 }
+.main .params .column select {
+  width: 151px;
+  padding: 0.3em 0.8em;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #eee;
+  box-shadow: 1px 1px 2px #000;
+}
 .main .qr-code {
   margin: 0 auto;
   padding: 1em;
   width: 205px;
+  height: 205px;
   border: 1px solid #eee;
 }
+.main .qr-code svg,
 .main .qr-code img {
+  max-width: 180px;
+  max-height: 180px;
   margin: 0 auto;
   display: block;
 }

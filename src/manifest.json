@@ -20,10 +20,8 @@
     "128": "assets/images/icon128.png"
   },
   "permissions": [
-    "tabs"
+    "tabs",
+    "downloads"
   ],
-  "background": {
-    "scripts": ["assets/js/main.js"],
-    "persistent": false
-  }
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }

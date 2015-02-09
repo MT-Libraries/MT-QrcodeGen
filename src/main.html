@@ -9,6 +9,7 @@
 
 <div class="main">
     <h2 class="title">Generate QRCode Image</h2>
+
     <div class="msg">
 
     </div>
@@ -22,17 +23,22 @@
 
             <div class="column">
                 <label for="width">Width</label>
-                <input type="text" name="width" id="width" value="205"/>
+                <input type="text" name="width" id="width" value="180"/>
             </div>
 
             <div class="column">
                 <label for="height">Height</label>
-                <input type="text" name="height" id="height" value="205"/>
+                <input type="text" name="height" id="height" value="180"/>
             </div>
 
             <div class="column">
                 <label for="type">Type</label>
-                <input type="text" name="type" id="type" placeholder="png" disabled/>
+
+                <select name="type" id="type">
+                    <option value ="svg" selected>svg</option>
+                    <option value="canvas">png</option>
+                </select>
+                <!--<input type="text" name="type" id="type" placeholder="svg" disabled/>-->
             </div>
 
             <div class="column">
@@ -44,15 +50,24 @@
     </div>
 
     <div class="qr-code">
-        <div class="res-img">
+
+        <div id="qrcode-image">
+
         </div>
+
     </div>
 
 </div>
 
+
 <script type="application/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-<script type="application/javascript" src="bower_components/jquery-qrcode/jquery.qrcode.min.js"></script>
+<script type="application/javascript" src="bower_components/qrcode.js/qrcode.js"></script>
+
+<script type="application/javascript" src="bower_components/qrcodesvg/raphael-2.1.0-min.js"></script>
+<script type="application/javascript" src="bower_components/qrcodesvg/qrcodesvg.js"></script>
+
 <script type="application/javascript" src="assets/js/main.js"></script>
 
 </body>
+
 </html>

@@ -1,0 +1,14 @@
+{
+  "name": "qrcodesvg",
+  "homepage": "https://github.com/pinchtools/qrcodesvg",
+  "_release": "d53f608ebc",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "d53f608ebc2558f21523695986767cf74b3a9cc0"
+  },
+  "_source": "https://github.com/pinchtools/qrcodesvg.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/pinchtools/qrcodesvg.git",
+  "_direct": true
+}
