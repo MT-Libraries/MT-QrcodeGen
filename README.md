@@ -1,6 +1,8 @@
 # Qrcode-Gen
 
-Generate Qrcode offline (Chrome Plugin)
+离线二维码生成，Generate Qrcode offline (Chrome Extension)
+
+[https://github.com/thonatos/Qrcode-Gen](https://github.com/thonatos/Qrcode-Gen)
 
 ## Changelogs
 
@@ -20,6 +22,7 @@ Generate Qrcode offline (Chrome Plugin)
 
 ## Thanks:
 
+- Icon [@illusate](https://github.com/illusate)
 - Jquery
 - qrcode.js https://github.com/davidshimjs/qrcodejs
 - qrcodesvg https://github.com/pinchtools/qrcodesvg
